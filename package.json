@@ -1,0 +1,13 @@
+{
+  "name": "esm-pg",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "mocha packages/*/test/*.test.js"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

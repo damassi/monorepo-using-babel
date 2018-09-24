@@ -1,0 +1,10 @@
+{
+  "name": "parent",
+  "version": "1.0.0",
+  "scripts": {
+    "demo": "node index.js"
+  },
+  "dependencies": {
+    "say-hello": "1.0.0"
+  }
+}
