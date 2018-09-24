@@ -1,5 +1,9 @@
 {
   "name": "say-hello",
   "version": "1.0.0",
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0"
+  }
 }

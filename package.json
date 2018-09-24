@@ -5,9 +5,16 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "mocha packages/*/test/*.test.js"
+    "test": "mocha --require \"@babel/register\" packages/*/test/*.test.js",
+    "demo": "yarn workspace conversation-bot demo"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "*",
+    "jest": "^23.6.0",
     "mocha": "^5.2.0"
   }
 }
