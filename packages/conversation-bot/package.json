@@ -2,7 +2,7 @@
   "name": "conversation-bot",
   "version": "1.0.0",
   "scripts": {
-    "demo": "node --require \"@babel/register\" index.js"
+    "demo": "node --require \"./register.js\" index.js"
   },
   "dependencies": {
     "say-hello": "1.0.0"
